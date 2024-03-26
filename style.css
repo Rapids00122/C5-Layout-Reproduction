@@ -41,8 +41,21 @@ ol {
     margin: 0;
 }
 
+li::marker {
+    color: #828282;
+}
+
 main {
+    padding: 15px 0 15px 0;
     background-color: #F6F6EF;
+    display: flex;
+    flex-direction: column;
+}
+
+.subText {
+    font-size: 7pt;
+    color: #828282;
+    margin-top: 0;
 }
 
 footer {
